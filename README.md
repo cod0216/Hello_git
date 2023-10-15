@@ -12,6 +12,13 @@
 
 **개발 블로그** 이용해주길 바란다.
 
+
+
+
+
+
+
+
 ---
 # git 설치
 
@@ -48,11 +55,22 @@ git은 버전관리할때 좋다 혹은 일을 진행하다가 잘못하고 되�
  로컬 저장소에 **세팅**해주자
 
 
-## git 커밋(commit)
+## git cycle
 
-`git status`
+`git status` - 깃의 상태를 확인 할 수 있다.
 
-깃의 상태를 확인 할 수 있다.
+<img width="1102" alt="스크린샷 2023-10-15 오후 9 26 51" src="https://github.com/cod0216/Hello_git/assets/83526046/c7bf64f6-43c0-4c83-9ef4-c4860a94baad">
+
+
+**Untracked** : git에서 파일을 추적하지 않는 상태 -> add시 staged 영역으로 간다
+
+**Modified** : git에서 파일을 추적 중이며, 수정된 내용이 있는 상태
+
+**Staged** : git에서 commit에 적용될 파일의 상태 -> 이후 unmodified로 돌아가게 된다.(**Untracked상태 아님\!**)
+
+**unmodified** : git에서 파일을 추적 중이며, 수정된 내용이 없는 상태
+
+**Remote** : 원격저장소 (Gitgub)
 
 
 
