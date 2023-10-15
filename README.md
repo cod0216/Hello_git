@@ -33,22 +33,28 @@ git은 버전관리할때 좋다 혹은 일을 진행하다가 잘못하고 되�
 
 ## git 시작하기
 
-> git version
-> 
-> git config --global user.name "<name>"
->
-> git config --config --global user.email "<email>"
->
-> git config --list > git config 내용 확인
+`git version `
+
+`git config --global user.name \"\<name\>\"`
+
+`git config \-\-config \-\-global user.email \"\<e-mail\>\" `
+
+`git config \-\-list -> git config 내용 확인`
 
 **깃헙**과 **계정**을 맞췄다면
 
-> git init + 폴더명
+`git init + 폴더명`
 
  로컬 저장소에 **세팅**해주자
 
 
-## git의 스테이지와 커밋(commit) 이해하기
+## git 커밋(commit)
+
+`git status`
+
+깃의 상태를 확인 할 수 있다.
+
+
 
 
 
