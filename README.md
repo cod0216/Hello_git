@@ -40,13 +40,15 @@ git은 버전관리할때 좋다 혹은 일을 진행하다가 잘못하고 되�
 
 ## git 시작하기
 
-`git version `
+```
+git version
 
-`git config --global user.name \"\<name\>\"`
+git config --global user.name \"\<name\>\"
 
-`git config \-\-config \-\-global user.email \"\<e-mail\>\" `
+git config \-\-config \-\-global user.email \"\<e-mail\>\" 
 
-`git config \-\-list -> git config 내용 확인`
+git config \-\-list -> git config 내용 확인
+```
 
 **깃헙**과 **계정**을 맞췄다면
 
@@ -56,7 +58,27 @@ git은 버전관리할때 좋다 혹은 일을 진행하다가 잘못하고 되�
 
 작업트리, 스테이지 영역, 저장소 글 쓰기
 
-log 쓸때 diff 같이 쓰기
+**log 관련 명령어**
+
+```
+git log
+
+git log --oneline
+
+git log --oneline --all
+
+git log --oneline --all --graph
+
+```
+
+
+
+`git diff`
+ : 현재 woking directory의 마지막 commit과 차이점을 비교
+
+`git diff <commit#1> <commit#2>`
+ : 두 커밋의 차이점을 비교
+
 
 ## git 버전 관리
 
