@@ -56,6 +56,9 @@ git config \-\-list -> git config 내용 확인
 
  로컬 저장소에 **세팅**해주자
 
+ <img width="1082" alt="스크린샷 2023-10-16 오후 6 44 56" src="https://github.com/cod0216/Hello_git/assets/83526046/859a1bda-e351-4079-8f00-2a7326a1e11a">
+
+
 작업트리, 스테이지 영역, 저장소 글 쓰기
 
 **log 관련 명령어**
